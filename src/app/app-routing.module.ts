@@ -14,6 +14,7 @@ const appRoutes: Routes = [
   { path: 'about-us', component: AboutUsComponent },
   { path: 'faq', component: FaqComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'test', loadChildren: './feature/demographic/demographic.module#DemographicModule' },
 
   {
     path: 'pre-registration',
